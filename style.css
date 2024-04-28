@@ -1,0 +1,10 @@
+.beach{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: absolute;
+}
+.children{
+    width: 200px;
+    position: relative;
+}
