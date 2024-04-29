@@ -1,10 +1,139 @@
+
 .beach{
     width: 100%;
     height: 100vh;
     background-size: cover;
     position: absolute;
 }
-.children{
-    width: 200px;
+.child{
+    width: 300px;
     position: relative;
+    width: 200px;
+    animation: child 1s infinite;
+    margin-bottom: 120px;
+    
+   
+}
+@keyframes child {
+    from {top: 0px;}
+    to {top: 5px;}
+  }
+  .sun{
+    width: 150px;
+    justify-content: center;
+    position: relative;
+    margin-left: 700px;
+    margin-bottom: 700px;
+    transition: all 3s ease-in-out;
+}
+.sun:hover{
+transform: rotate(360deg);
+}
+.crab{
+    width: 150px;
+    position: relative;
+    width: 80px;
+    animation: child 0.5s infinite;
+    margin-bottom: 20px;
+    animation-name: crab;
+    
+}
+@keyframes crab {
+    from {left: 0px;}
+    to {left: 5px;}
+  }
+
+.seagull{
+
+    width: 150px;
+    position: absolute;
+    width: 80px;
+    animation:fly 35s infinite;
+    margin-bottom: 700px;
+    margin-top: 120px;
+   
+}
+@keyframes fly{
+    from {right: 100%;}
+    to {right:0px;}
+       
+    }
+
+.image1{
+    position: relative;
+    width: 200px;
+    animation: child 1s infinite;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    animation-name: image1;
+}
+@keyframes image1{
+    from {left: 0px;}
+    to {left: 1px;}
+  }
+
+  .child1{
+    position: absolute;
+    width: 100px;
+    animation: child 3s infinite;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    animation-name: child1;
+    margin-left: 420px;
+    margin-top: 450px;
+    z-index: 1;
+    
+  
+}
+@keyframes child1{
+    from {left: 0px;}
+    to {left: 100px;}
+  }
+  .swim1{
+    position: absolute;
+    width: 200px;
+    animation: child 30s infinite;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    animation-name: swim1;
+    margin-left: 400px;
+    margin-top: 400px;
+    z-index: 0;
+    
+  
+}
+@keyframes swim1{
+    from {right: 0px;}
+    to {right:100%;}
+  } 
+
+  .boat{
+    position: absolute;
+    width: 100px;
+    animation: boat 25s infinite;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    animation-name: boat;
+    margin-left: 400px;
+    margin-top: 250px;
+    
+  
+}
+@keyframes boat{
+    from {right: 50%;}
+    to {right:0px;}
+  } 
+
+
+.gandzi{
+    position: absolute;
+    width: 70px;
+    margin-top: 350px;
+    margin-left: -900px;
+    animation: gandzi 2s infinite;
+    animation-name: gandzi;
+    animation-duration: 1s ;
+}
+@keyframes gandzi {
+    50%{transform: scale(0.8, 0.8)}
 }
